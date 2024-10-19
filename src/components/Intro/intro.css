@@ -26,8 +26,8 @@
         margin-left: 22%;
         height: 77% !important;
         width: 86% !important;
-        margin-top: 18%;
-        margin-bottom: 12%;
+        margin-top: 72%;
+        /* margin-bottom: 12%; */
         /* border: 10px solid orange; */
 }
 
@@ -119,9 +119,7 @@
 .hello {
     font-weight: 100;
 }
-.name{
 
-}
 .wtmpf{
     font-size: 9px;
     background-color: aliceblue;
@@ -301,7 +299,10 @@
 }
 
 @media (min-width: 315px) and  (max-width: 429px) {
-
+.me{
+    margin-top: 18%;
+    margin-bottom: 12%;
+}
 
     .introContent {
         height: 96vh;
