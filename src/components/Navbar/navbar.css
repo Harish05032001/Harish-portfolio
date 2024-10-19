@@ -1,0 +1,173 @@
+.navbar{
+    height:5rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+
+}
+.har{
+    color: orange;
+}
+.ram{
+    color: white;
+}
+.dot{
+    color: orange;
+}
+.logo{
+    /* object-fit: cover; */
+    height: 40px;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.desktopMenuListItem{
+    cursor: pointer;
+    margin: 26px;
+}
+.desktopMenuListItem:hover {
+    color: orange;
+    padding-bottom: 2px;
+    border-bottom: 2px solid orange;
+}
+.contactMe{
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 8%;
+    height: 30px;
+    padding: 0 2px;
+    cursor: pointer;
+
+}
+.contactMeImg{
+    object-fit: cover;
+    height: 50px;
+    width: 20%;
+    background-color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+/* //mediaquery */
+
+@media (min-width: 890px) and  (max-width: 1024px) {
+    .desktopMenu{
+        margin-left: 40%;
+    }
+    .desktopMenuListItem {
+        margin: 18px;
+        font-size: 14px;
+    }
+    .contactMe{
+        width: 12%;
+        height: 24px;
+        font-size: 12px;
+    }
+    .contactMeImg{
+        height: 18px;
+    }
+    .me{
+        height: 60%;
+        width: 36%;
+        left: 24px;
+    }
+}
+
+@media (min-width: 700px) and  (max-width: 889px) {
+    .desktopMenu {
+        margin-left: 30%;
+        font-size: 14px;
+    }
+    .contactMe {
+        width: 10%;
+        font-size: 9px;
+    }
+    .contactMeImg{
+        height: 18px;
+    }
+    
+}
+
+@media (min-width: 550px) and  (max-width: 699px) {
+    .desktopMenu {
+        margin-left: 0 !important;
+        font-size: 12px !important;
+    }
+    .contactMe {
+        width: 12% !important;
+        height: 20px !important;
+        font-size: 8px !important;
+    }
+    .contactMeImg{
+        height: 16px !important;
+    }
+   
+}
+
+@media (min-width: 430px) and  (max-width: 549px) {
+    .logo {
+        /* object-fit: cover; */
+        height: 36px;
+        width: 7%;
+    }
+    .desktopMenu {
+        margin-left: 0 !important;
+        font-size: 9px !important;
+    }
+    .contactMe {
+        width: 15% !important;
+        height: 20px !important;
+        font-size: 7px !important;
+    }
+    .contactMeImg{
+        height: 16px !important;
+    }
+  
+}
+
+@media (min-width: 315px) and  (max-width: 429px) {
+    .navbar {
+        padding: 14px 10px !important;
+    }
+    .logo {
+        /* object-fit: cover; */
+        height: 23px;
+        width: 16%;
+        font-size: 12px;
+    }
+    .navbar{
+        padding: 14px 18px !important;
+    }
+    .desktopMenuListItem {
+        margin: 6px !important;
+    }
+    .desktopMenu {
+        margin-left: 0 !important;
+        font-size: 10px !important;
+    }
+    .contactMe {
+        width: 19% !important;
+        height: 16px !important;
+        font-size: 7px !important;
+    }
+    .contactMeImg{
+        height: 15px !important;
+    }
+}

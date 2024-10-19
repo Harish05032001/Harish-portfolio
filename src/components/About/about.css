@@ -1,0 +1,157 @@
+
+.heading{
+    font-size: 28px;
+    margin-top: 60px !important;
+}
+.about{
+    position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    /* width: fit-content; */
+}
+.aboutHeading{
+    font-size: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292929;;
+    position: absolute;
+    font-weight: 900;
+
+}
+.aboutHeading2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color:yellow; */
+    color: orange;
+    font-weight: 900;
+}
+
+.abtHdngMe{
+    color: white;
+}
+.aboutMe{
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    background-color: #161617;
+    /* background: linear-gradient(to bottom, #161617 75%, rgb(46, 46, 46) 100%); */
+
+    padding-top: 1%;
+    padding-bottom: 6%;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.para{
+    padding: 0 12%;
+    width: 100%;
+}
+.pd012{
+    padding: 0 12%;
+}
+.aboutPara{
+    margin-top: 30px;
+    font-size:  20px;;
+}
+.workExp{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+.position{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.SE{
+    font-size: 16px;
+    font-weight: normal;
+}
+.fulltime p{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.chetu{
+    /* border-bottom: 1px solid white; */
+    display: flex;
+    padding-bottom: 18px;
+    width:100%
+}
+.company{
+     display: flex;
+   
+}
+.company p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.companyImg{
+    width: 17px;
+}
+.locationImg{
+    width: 17px;
+    margin-left: 10px;
+}
+.expCard{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    /* background-color: white; */
+    color: white;
+    /* padding: 1px 20px; */
+    border-radius: 22px;
+}
+
+@media (min-width: 315px) and  (max-width: 530px) {
+    .heading {
+        font-size: 22px;
+        margin-top: 32px;
+    }
+    .aboutPara {
+        font-size: 12px;
+    }
+    .SE {
+        font-size: 13px;
+    }
+    .company p {
+        font-size: 10px;
+    }
+    .fulltime p {
+        padding: 4px;
+        font-size: 7px;
+    }
+
+    .expCard{
+        height: 50px;
+        border-radius: 16px;
+    }
+    .aboutHeading {
+        font-size: 56px;
+    }
+    .fulltime{
+        margin-left: 13px;
+    }
+    .company p {
+        margin-left: 0px;
+    }
+    .locationImg {
+        width: 10px;
+        height: 10px;
+    }
+    .companyImg {
+        width: 10px;
+        height: 10px;
+    }
+}

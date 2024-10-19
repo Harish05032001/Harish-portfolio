@@ -1,0 +1,122 @@
+.techtools{
+    /* background-color: rgb(46, 46, 46); */
+    padding-top: 1%;
+    padding-bottom: 6%;
+    background-image: url('../../assets/background.png');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+}
+.techImg{
+    width: 30%;
+}
+.tech{
+    margin-top: 3%;
+}
+.ml-30{
+    margin-left: 30%;
+}
+.icon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techicons{
+    display: flex;
+    margin: 40px;
+}
+.technologies{
+    position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+}
+.techHeading{
+    font-size: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292828;
+    position: absolute;
+    font-weight: 900;
+
+}
+.techHeading2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    font-weight: 900;
+
+}
+.techHdngTools{
+    color: white;
+}
+.technologiesHeading{
+    font-size: 28px;
+    color: grey;
+    margin-top: 24%;
+}
+.toolsHeading{
+    font-size: 28px;
+    color: grey;
+    margin-top: 18%;
+}
+.pd012{
+    padding: 0 12%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 78px;
+    background-color: rgb(230, 179, 104);
+    color: rgb(53, 53, 53);
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 86px;
+    left: 62%;
+    font-size: 12px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .w-60{
+    width: 60%;
+  }
+
+
+  @media screen and (max-width: 769px) {
+    .techHeading {
+        font-size: 44px;
+    }
+    .techHeading2 {
+        font-size: 26px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+  .techImg {
+    width: 56%;
+    }
+    .w-100{
+        width: 100%;
+    }
+  }
