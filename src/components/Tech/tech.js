@@ -31,17 +31,17 @@ const Tech = () => {
         <h1 className='technologiesHeading pd012'>Technologies</h1>
         <div className='tech'>
             <div className='techicons'>
-                <div className='icon tooltip'><img src={html} alt="html" className='techImg'/><span class="tooltiptext">Html</span></div>
-                <div className='icon tooltip'> <img src={css} alt="css" className='techImg'/><span class="tooltiptext">Css</span></div>
-                <div className='icon tooltip'> <img src={js} alt="js" className='techImg'/><span class="tooltiptext">Javascript</span></div>
-                <div className='icon tooltip'> <img src={angular} alt="angular" className='techImg'/><span class="tooltiptext">Angular</span></div>
+                <div className='icon tooltip'><img src={html} alt="html" className='techImg'/><span  className="tooltiptext">Html</span></div>
+                <div className='icon tooltip'> <img src={css} alt="css" className='techImg'/><span className="tooltiptext">Css</span></div>
+                <div className='icon tooltip'> <img src={js} alt="js" className='techImg'/><span className="tooltiptext">Javascript</span></div>
+                <div className='icon tooltip'> <img src={angular} alt="angular" className='techImg'/><span className="tooltiptext">Angular</span></div>
             </div>
             
             <div className='techicons'>
-                <div className='icon tooltip'><img src={react} alt="react" className='techImg'/><span class="tooltiptext">React</span></div>
-                <div className='icon tooltip'><img src={coldfusion} alt="coldfusion" className='techImg'/><span class="tooltiptext">Coldfusion</span></div>
-                <div className='icon tooltip'><img src={sass} alt="sass" className='techImg'/><span class="tooltiptext">Sass</span></div>
-                <div className='icon tooltip'><img src={bootstrap} alt="bootstrap"  style={{width:"100%"}} className='techImg'/><span class="tooltiptext">Bootstrap</span></div>
+                <div className='icon tooltip'><img src={react} alt="react" className='techImg'/><span className="tooltiptext">React</span></div>
+                <div className='icon tooltip'><img src={coldfusion} alt="coldfusion" className='techImg'/><span className="tooltiptext">Coldfusion</span></div>
+                <div className='icon tooltip'><img src={sass} alt="sass" className='techImg'/><span className="tooltiptext">Sass</span></div>
+                <div className='icon tooltip'><img src={bootstrap} alt="bootstrap"  style={{width:"100%"}} className='techImg'/><span className="tooltiptext">Bootstrap</span></div>
             </div>
         </div>
 

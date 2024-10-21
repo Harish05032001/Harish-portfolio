@@ -6,6 +6,13 @@ import ReactTypingEffect from 'react-typing-effect';
 
 const Intro = () => {
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = process.env.PUBLIC_URL + '/Harish R (SE) resume.pdf'; // Update with your file path
+    link.download = 'Harish-CV.pdf'; // Name the file that will be downloaded
+    link.click();
+  };
+
 
   return (
     <section id="intro">
@@ -28,14 +35,11 @@ const Intro = () => {
             </div>
             <p className='intro'>I am a skilled web developer with 3 years of experience in creating user friendly website.</p>
             {/* <Link> */}
-              <a
-                href="/Harish R (SE) resume.pdf"
-                download="Harish-CV.pdf"                 
-                target="_blank"                          
-                rel="noopener noreferrer"
-              >
-                <button className='hireMe hireMe1'>Download CV</button>
-              </a>
+             
+                 {/* target="_blank"                          
+                rel="noopener noreferrer" */}
+                
+                <button onClick={handleDownload} className='hireMe hireMe1'>Download CV</button>
             {/* </Link> */}
         </div>
     </section>
