@@ -49,16 +49,16 @@ const Tech = () => {
 
         <div className='tools'>
             <div className='techicons'>
-                <div className='icon tooltip'><img src={git} alt="git" className='techImg'/><span class="tooltiptext">Git</span></div>
-                <div className='icon tooltip'><img src={github} alt="github" className='techImg'/><span class="tooltiptext">Github</span></div>
-                <div className='icon tooltip'><img src={sourcetree} alt="sourcetree" className='techImg'/><span class="tooltiptext">Sourcetree</span></div>
-                <div className='icon tooltip'><img src={bitbucket} alt="bitbucket" className='techImg'/><span class="tooltiptext">Bitbucket</span></div>
+                <div className='icon tooltip'><img src={git} alt="git" className='techImg'/><span className="tooltiptext">Git</span></div>
+                <div className='icon tooltip'><img src={github} alt="github" className='techImg'/><span className="tooltiptext">Github</span></div>
+                <div className='icon tooltip'><img src={sourcetree} alt="sourcetree" className='techImg'/><span className="tooltiptext">Sourcetree</span></div>
+                <div className='icon tooltip'><img src={bitbucket} alt="bitbucket" className='techImg w-80'/><span className="tooltiptext">Bitbucket</span></div>
             </div>
             <div className='techicons'>
-                <div className='icon tooltip'><img src={postman} alt="postman"  className='techImg'/><span class="tooltiptext">Postman</span></div>
-                <div className='icon tooltip'><img src={vscode} alt="vscode"  className='techImg'/><span class="tooltiptext">Visual studio code</span></div>
-                <div className='icon tooltip'><img src={sql} alt="sql server"  className='techImg ml-30 w-60 w-100'/><span class="tooltiptext">SQL server</span></div>
-                <div className='icon tooltip'><img src={asana} alt="asana"   className='techImg w-60 w-100'/><span class="tooltiptext">Asana</span></div>
+                <div className='icon tooltip'><img src={postman} alt="postman"  className='techImg'/><span className="tooltiptext">Postman</span></div>
+                <div className='icon tooltip'><img src={vscode} alt="vscode"  className='techImg'/><span className="tooltiptext">Visual studio code</span></div>
+                <div className='icon tooltip'><img src={sql} alt="sql server"  className='techImg ml-30 w-60 w-100'/><span className="tooltiptext">SQL server</span></div>
+                <div className='icon tooltip'><img src={asana} alt="asana"   className='techImg w-60 w-100'/><span className="tooltiptext">Asana</span></div>
 
             </div>
         </div>

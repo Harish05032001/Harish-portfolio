@@ -119,8 +119,16 @@
     .w-100{
         width: 100%;
     }
+    
     .technologiesHeading{
        
         margin-top: 30%;
     }
+    .w-80{
+        width: 80%;
+    } 
+    .tooltip .tooltiptext {
+        top: 30px;
+        font-size: 10px;
+    }  
   }

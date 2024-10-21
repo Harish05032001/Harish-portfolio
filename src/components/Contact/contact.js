@@ -13,7 +13,7 @@ const Contact = () => {
             <p>If you have any queries, please drop a mail</p>
         </div>
         <div className='email'>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=harishprvn@gmail.com&su=Hello Harish&body=Hi, I want to reach out to you!"
+            <a href='https://mail.google.com/mail/?view=cm&fs=1&to=harishprvn@gmail.com&su=Hello Harish&body=Hi, I want to reach out to you!'
                     target="_blank" rel="noopener noreferrer">
                 <h1>harishprvn@gmail.com</h1>
             </a>
@@ -26,7 +26,7 @@ const Contact = () => {
                 </a>
             </div>
             <div className='contactIcon'> 
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=harishprvn@gmail.com&su=Hello Harish&body=Hi, I want to reach out to you!"
+                <a href='https://mail.google.com/mail/?view=cm&fs=1&to=harishprvn@gmail.com&su=Hello Harish&body=Hi, I want to reach out to you!'
                     target="_blank" rel="noopener noreferrer">
                     {/* You can use an icon here */}
                     <img src={gmail} alt="gmail" className='contactImg' />
