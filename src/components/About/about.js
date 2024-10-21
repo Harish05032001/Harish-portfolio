@@ -15,7 +15,13 @@ const About = () => {
         
         <div className='workExp'>
             <div className='para'>
-                <p className='aboutPara'>Frontend developer with 2 years of experience and creates the digital softwarethat entices the user into a seamless interaction between humans and computers.Expertise on focusing the UI Development and user experience and proficient inHTML5, CSS3, JavaScript, TypeScript, Angular and creating self-contained,reusable, and testable modules and components.</p>
+                <p className='aboutPara'>Frontend developer with 3 years of experience and creates the digital software
+                that entices the user into a seamless interaction between humans &
+                computers. Expertise on focusing the Development and user experience
+                and proficient in <span className='boldtext'>Angular, Reactjs, ColdFusion, HTML5, CSS3,
+                JavaScript, SQL, Figma</span> and creating self- contained, reusable, and
+                testable modules and components.
+                .</p>
             </div>
             <h1 className='heading pd012'>Work Experience</h1>
             <div className='expCard pd012'>

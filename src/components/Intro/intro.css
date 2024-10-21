@@ -20,13 +20,13 @@
 
         /* position: absolute; */
         /* z-index: -1; */
-        left: 50px !important;
+        left: 50px ;
         /* top: -4rem; */
         /* object-fit: cover; */
-        margin-left: 22%;
-        height: 77% !important;
-        width: 86% !important;
-        margin-top: 72%;
+        margin-left: 10%;
+        height: 77% ;
+        width: 86%;
+        margin-top: 12%;
         /* margin-bottom: 12%; */
         /* border: 10px solid orange; */
 }
@@ -167,7 +167,17 @@
   }
 
 
-
+  @media (min-width: 520px) and  (max-width: 1024px) {
+    .me{
+        height: 60%;
+        width: 92%;
+        margin-left: 8%;
+        margin-top: 20%;
+    }
+    .introContent{
+        margin-top: 12%;
+    }
+  }
 
 @media (min-width: 890px) and  (max-width: 1024px) {
     
@@ -179,11 +189,7 @@
     .contactMeImg{
         height: 18px;
     }
-    .me{
-        height: 60%;
-        width: 36%;
-        left: 24px;
-    }
+    
    
 }
 @media (min-width: 425px) and  (max-width: 1024px) {
@@ -207,12 +213,12 @@
     .contactMeImg{
         height: 18px;
     }
-    .me{
+    /* .me{
         left: 0px ;
         height: 60% ;
         width: 36% ;
         margin-top: 0% ;
-    }
+    } */
     .hello .name .harish{
         font-size: 24px !important;
     }
@@ -241,24 +247,24 @@
         height: 96% !important;
         font-size: 10px !important;
     }
-    .me{
-        left: 0px !important;
-        height: 60% !important;
-        width: 36% !important;
-        margin-top: -10% !important;
+    /* .me{
+        left: 0px ;
+        height: 60% ;
+        width: 36% ;
+        margin-top: -10% ;
 
        
-    }
+    } */
 }
 
 @media (min-width: 430px) and  (max-width: 549px) {
     
-    .me {
-        left: 0px !important;
-        height: 52% !important;
-        width: 50% !important;
-        margin-top: -10% !important;
-    }
+    /* .me {
+        left: 0px ;
+        height: 52% ;
+        width: 50% ;
+        margin-top: -10% ;
+    } */
     .introContent {
         height: 96vh;
         width: 100wh;
@@ -300,8 +306,9 @@
 
 @media (min-width: 315px) and  (max-width: 429px) {
 .me{
-    margin-top: 18%;
+    margin-top: 38%;
     margin-bottom: 12%;
+    margin-left: 28%;
 }
 
     .introContent {

@@ -1,7 +1,7 @@
 import React from 'react'
 import './tech.css';
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
+import html from '../../assets/html5.png'
+import css from '../../assets/css3.png'
 import js from '../../assets/js.png'
 import angular from '../../assets/angular.png'
 import react from '../../assets/react.png'
@@ -24,8 +24,8 @@ const Tech = () => {
   return (
     <section id='techtools' className='techtools'>
         <div className='technologies'>
-            <h1 className='techHeading'>Tech & Tools</h1>
-            <h1 className='techHeading2'>Tech & <span className='techHdngTools'> Tools</span></h1>
+            <h1 className='techHeading'>Tech Tools</h1>
+            <h1 className='techHeading2'>Tech<span className='techHdngTools'> Tools</span></h1>
         </div>
 
         <h1 className='technologiesHeading pd012'>Technologies</h1>

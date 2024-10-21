@@ -33,7 +33,9 @@
     color: orange;
     font-weight: 900;
 }
-
+.boldtext{
+    font-weight: 800;
+}
 .abtHdngMe{
     color: white;
 }
@@ -56,7 +58,8 @@
 }
 .aboutPara{
     margin-top: 30px;
-    font-size:  20px;;
+    font-size:  20px;
+    letter-spacing: 1px;
 }
 .workExp{
     margin-top: 10%;
@@ -92,6 +95,7 @@
 }
 .company{
      display: flex;
+     margin-top: 8px;
    
 }
 .company p{
@@ -121,6 +125,7 @@
     }
     .aboutPara {
         font-size: 12px;
+        margin-top: 68px;
     }
     .SE {
         font-size: 13px;

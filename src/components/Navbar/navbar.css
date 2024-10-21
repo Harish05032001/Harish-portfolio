@@ -144,17 +144,18 @@
 
 @media (min-width: 315px) and  (max-width: 429px) {
     .navbar {
-        padding: 14px 10px !important;
+        padding: 22px 14px 22px 14px !important;
+        height: 0;
     }
     .logo {
         /* object-fit: cover; */
         height: 23px;
         width: 16%;
-        font-size: 12px;
+        font-size: 10px;
     }
-    .navbar{
+    /* .navbar{
         padding: 14px 18px !important;
-    }
+    } */
     .desktopMenuListItem {
         margin: 6px !important;
     }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css';
 // import me from '../../assets/me.png'
-import me from '../../assets/photo1.png'
+import me from '../../assets/photo2.png'
 import ReactTypingEffect from 'react-typing-effect';
 
 const Intro = () => {
@@ -14,7 +14,7 @@ const Intro = () => {
           <img src={me} alt="profile" className='me'/>
         </div>
         <div className='introContent'>
-            <span className="hello">Hello</span>
+            <span className="hello">Hello,</span>
             {/* <span className="name">I'm <h1 className='harish'>Harish</h1> <br/>Frontend Developer</span>
              */}
             <div className='typingText'>
