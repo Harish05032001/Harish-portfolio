@@ -145,7 +145,7 @@
 @media (min-width: 315px) and  (max-width: 429px) {
     .navbar {
         padding: 22px 14px 22px 14px !important;
-        height: 3.5rem;
+        height: 4rem;
     }
     .logo {
         /* object-fit: cover; */
