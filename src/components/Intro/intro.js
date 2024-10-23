@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css';
 // import me from '../../assets/me.png'
-import me from '../../assets/photo2.png'
+import me from '../../assets/photo3.png'
 import ReactTypingEffect from 'react-typing-effect';
 
 const Intro = () => {

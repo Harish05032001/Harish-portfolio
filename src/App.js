@@ -4,7 +4,7 @@ import About from "./components/About/about";
 import Footer from "./components/Footer/footer";
 import Tech from "./components/Tech/tech";
 import Contact from "./components/Contact/contact";
-// import KeySkills from "./components/KeySkills/keyskills"
+import KeySkills from "./components/KeySkills/keyskills";
 
 
 // import { Route, Routes, BrowserRouter } from "react-router-dom";
@@ -31,7 +31,7 @@ function App() {
             <Intro/>
             <About/>
             <Tech/>
-            {/* <KeySkills/> */}
+            <KeySkills/>
             <Contact/>
           </div>
         <Footer/>

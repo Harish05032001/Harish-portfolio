@@ -13,6 +13,8 @@ const Navbar = () => {
         <Link to="intro" smooth={true} duration={500} className="desktopMenuListItem">Home</Link>
         <Link to="aboutMe" smooth={true} duration={500} className="desktopMenuListItem">About</Link>
         <Link to="techtools" smooth={true} duration={500} className="desktopMenuListItem">Technologies</Link>
+        <Link to="keyskills" smooth={true} duration={500} className="desktopMenuListItem">Key Skills</Link>
+
         <Link to="contactInfo" smooth={true} duration={500} className="desktopMenuListItem">Contact</Link>
       </div>
       {/* <button className='contactMe'>
