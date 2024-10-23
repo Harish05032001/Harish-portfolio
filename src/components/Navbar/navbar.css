@@ -159,10 +159,10 @@
     .desktopMenuListItem {
         margin: 6px !important;
     }
-    .desktopMenu {
+    /* .desktopMenu {
         margin-left: 0 !important;
         font-size: 8px !important;
-    }
+    } */
     .contactMe {
         width: 19% !important;
         height: 16px !important;
@@ -172,3 +172,17 @@
         height: 15px !important;
     }
 }
+
+@media (min-width: 322px) and (max-width: 430px){
+.desktopMenu {
+    margin-left: 0 !important;
+    font-size: 10px !important;
+}
+}
+
+@media screen and (max-width: 321px) {
+    .desktopMenu {
+        margin-left: 0 !important;
+        font-size: 8px !important;
+    }
+    }
