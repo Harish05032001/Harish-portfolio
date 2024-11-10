@@ -23,7 +23,7 @@ const KeySkills = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 2000);
 
     // Clear the interval when the component is unmounted
     return () => clearInterval(interval);

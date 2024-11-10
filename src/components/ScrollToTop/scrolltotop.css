@@ -1,0 +1,33 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+  }
+  
+  .scroll-button {
+    background-color: orange;
+    color: #333;
+    border: none;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0.7;
+  }
+  
+  .scroll-button:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+
+
+  @media (min-width: 315px) and  (max-width: 429px) {
+    .scroll-to-top {
+        right: 18px;
+    }
+  }
+  

@@ -1,0 +1,72 @@
+/* Sidebar positioning */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Hidden offscreen initially */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+  /* Sidebar open state */
+  .sidebar.open {
+    left: 0; /* Slide in from the left */
+  }
+  
+  /* Close button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Sidebar content */
+  .sidebar-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-content ul li {
+    padding: 10px 20px;
+  }
+  
+  .sidebar-content ul li a {
+    color: orange;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .sidebar-content ul li a:hover {
+    color: orange;
+    padding-bottom: 2px;
+    border-bottom: 2px solid orange;
+  }
+
+  .desktopMenuListItem{
+    cursor: pointer;
+    margin: 26px;
+}
+.desktopMenuListItem:hover {
+    color: orange;
+    padding-bottom: 2px;
+    border-bottom: 2px solid orange;
+    width: 100px;
+}
+  
+
+  @media (min-width: 315px) and  (max-width: 429px) {
+    .sidebar {
+        width: 210px;
+        font-size: 12px;
+    }
+  }
